@@ -1,3 +1,8 @@
+/*
+Programmer: Daniel Bailey
+Description: Testing class
+Date:12/5/2018
+ */
 import java.io.IOException;
 
 public class TestProductionLine extends ProcessFiles{

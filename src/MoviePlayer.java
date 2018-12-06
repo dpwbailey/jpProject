@@ -1,8 +1,13 @@
+/*
+Programmer: Daniel Bailey
+Description: Basic video player functions
+Date:12/5/2018
+ */
 import java.io.Serializable;
 
 public class MoviePlayer extends Product implements MultimediaControl, Serializable {
 //fields
-  protected static Screen movieScreen = new Screen("1920 x 1080", 144, 1);
+  protected Screen movieScreen = new Screen("1920 x 1080", 144, 1);
   public MonitorType monitorType = MonitorType.LCD;
 
   @Override

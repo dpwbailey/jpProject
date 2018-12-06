@@ -1,5 +1,7 @@
 /**
- * Programmer: Daniel Bailey Description: OOP Project Date: 9/29/2018
+ * Programmer: Daniel Bailey
+ * Description: OOP Project
+ * Date: 9/29/2018
  **/
 
 

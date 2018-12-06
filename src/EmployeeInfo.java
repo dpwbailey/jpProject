@@ -1,5 +1,10 @@
+/*
+Programmer: Daniel Bailey
+Description: Employee audit trail
+Date:12/5/2018
+ */
+
 import java.util.Scanner;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class EmployeeInfo {

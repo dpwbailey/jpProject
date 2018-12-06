@@ -1,4 +1,8 @@
-
+/*
+Programmer: Daniel Bailey
+Description: Basic media player controls
+Date:12/5/2018
+ */
 //step 13
 public class Player extends Product implements MultimediaControl {
 

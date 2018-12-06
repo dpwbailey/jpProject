@@ -1,3 +1,9 @@
+/*
+Programmer: Daniel Bailey
+Description: Basic audio player functions
+Date:12/5/2018
+ */
+
 import java.io.Serializable;
 
 public class AudioPlayer extends Product implements MultimediaControl, Serializable {

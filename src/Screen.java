@@ -1,3 +1,8 @@
+/*
+Programmer: Daniel Bailey
+Description: fields and methods related to the monitor specifications
+Date:12/5/2018
+ */
 public class Screen implements ScreenSpec {
 
   private String resolution;

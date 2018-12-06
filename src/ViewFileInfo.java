@@ -1,5 +1,10 @@
+/*
+Programmer: Daniel Bailey
+Description: For reading a text file containing product information
+Date:12/5/2018
+ */
+
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 
 public class ViewFileInfo extends ProcessFiles {
