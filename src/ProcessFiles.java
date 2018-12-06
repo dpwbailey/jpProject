@@ -17,7 +17,7 @@ public class ProcessFiles {
 
   private Path p = Paths.get("C:", "LineTests");
   private Path p2 = Paths.get("C:", "LineTests", "TestResults.txt");
-  private Path p3;
+ // private Path p3;
 
 
   private void CreateDirectory() {
