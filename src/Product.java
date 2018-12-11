@@ -14,7 +14,7 @@ public abstract class Product implements Item, Comparable<Item>{
   private Date manufacturedOn = new Date();
   private String name = "default name";
   private static int currentProductionNumber = 1;
-  private ItemType code;
+  private ItemType code = ItemType.VISUAL;
 
   public void setProductionNumber(int num) {
     currentProductionNumber = num; //had to write to static field or it just didnt print
@@ -58,7 +58,7 @@ public abstract class Product implements Item, Comparable<Item>{
     setName(pName);
     setProductionNumber(currentProductionNumber);
     manufacturedOn.getTime();
-    this.toString();
+    //this.toString();
 
   }
 }

@@ -3,12 +3,15 @@ Programmer: Daniel Bailey
 Description: Basic video player functions
 Date:12/5/2018
  */
+
 import java.io.Serializable;
 
 public class MoviePlayer extends Product implements MultimediaControl, Serializable {
-//fields
-  protected Screen movieScreen = new Screen("1920 x 1080", 144, 1);
+
+  //fields
+  public Screen movieScreen = new Screen("1920 x 1080", 144, 1);
   public MonitorType monitorType = MonitorType.LCD;
+
 
   @Override
   public void play() {
@@ -33,7 +36,7 @@ public class MoviePlayer extends Product implements MultimediaControl, Serializa
   @Override
   public String toString() {
     return super.toString() +
-        "\r\n" + movieScreen.toString() + "\r\n" +
+        "\r\n" + this.movieScreen.toString() + "\r\n" +
         "Monitor Type       : " + monitorType + "\r\n---------\r\n";
   }
 
@@ -41,8 +44,10 @@ public class MoviePlayer extends Product implements MultimediaControl, Serializa
     super(pName);
     this.movieScreen = movieScreen; //had to write to static field or it just didnt print
     this.monitorType = monitorType;
+
   }
-  public MoviePlayer(){
+
+  public MoviePlayer() {
 
   }
 
